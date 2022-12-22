@@ -34,7 +34,9 @@ Any list of **n** will take **log(2)n** steps to run in worst case (with **binar
 
 ### Exercises
 #### 1.1
+---
 7 Steps
 
 #### 1.2
+---
 8 Steps
