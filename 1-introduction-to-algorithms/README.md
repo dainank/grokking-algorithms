@@ -42,3 +42,23 @@ Any list of **n** will take **log(2)n** steps to run in worst case (with **binar
 8 Steps
 
 ---
+
+#### 1.3
+O(log n)
+
+---
+
+#### 1.4
+O(n)
+
+---
+
+#### 1.5
+O(n)
+
+---
+
+#### 1.6
+O(n + 26), O(n - 26), O(n * 26), O(n / 26) **(adv. concept, see chp. 4)**
+
+---
