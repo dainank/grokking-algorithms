@@ -14,14 +14,41 @@ Cheaper inserting, more expensive reading.
 - items can be anywhere in memory
 - each item references where the next item in list is
 
-| - | Arrays | Lists |
+| Action | Arrays | Lists |
 | ----------- | ----------- | ----------- |
 | Reading | O(1) | O(n) |
 | Insertion | O(n) | O(1) |
 | Deletion | O(n) | O(1) |
 
+## Key Definitions
+- *random access*: jump directly to an index and access the element
+- *sequential access*: reading elements one by one
+
+## Selection Sort
+Examples of sorting:
+- names
+- dates
+
 ### Exercises
 #### 2.1
 List (linked)
+
+---
+#### 2.2
+List (linked)
+
+---
+#### 2.3
+Array
+
+---
+#### 2.4
+Everytime a user registers on Facebook and an item needs to be inserted into the array, all the items currently in the array may need to be copied if the items no longer fit alongside in the current memory location.
+
+---
+#### 2.5
+For Hybrid:
+- Searching: linked *lists* < *hybrid* < sorted *arrays*
+- Inserting: linked *lists* = *hybrid* > sorted *arrays*
 
 ---
