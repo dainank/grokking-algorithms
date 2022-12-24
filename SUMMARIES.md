@@ -16,3 +16,10 @@ Key summaries of each chapter.
 - Arrays allow fast reads.
 - Linked lists allow fast inserts and deletes.
 - All elements in the array should be the same type (all ints, all doubles, and so on).
+
+## Chapter 3 - Recursion
+- Recursion is when a function calls itself.
+- Every recursive function has two cases: the base case and the recursive case.
+- A stack has two operations: push and pop.
+- All function calls go onto the call stack.
+- The call stack can get very large, which takes up a lot of memory.
