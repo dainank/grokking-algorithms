@@ -23,3 +23,9 @@ Key summaries of each chapter.
 - A stack has two operations: push and pop.
 - All function calls go onto the call stack.
 - The call stack can get very large, which takes up a lot of memory.
+
+## Chapter 4 - Quicksort
+- D&C works by breaking a problem down into smaller and smaller pieces. If you’re using D&C on a list, the base case is probably an empty array or an array with one element.
+- If you’re implementing quicksort, choose a random element as the pivot. The average runtime of quicksort is O(n log n)!
+- The constant in Big O notation can matter sometimes. That’s why quicksort is faster than merge sort.
+- The constant almost never matters for simple search versus binary search, because O(log n) is so much faster than O(n) when your list gets big.
