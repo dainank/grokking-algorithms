@@ -1,6 +1,8 @@
 # Summaries
 Key summaries of each chapter.
 
+A comprehensive summary of all algorithms can be found here: https://livebook.manning.com/book/grokking-algorithms/chapter-11/
+
 ## Chapter 1 - Introduction to Algorithms
 - Binary search is a lot faster than simple search.
 - O(log n) is faster than O(n), but it gets a lot faster once the list of items you’re searching through grows.
@@ -69,3 +71,10 @@ Undirected graphs don’t have arrows, and the relationship goes both ways (ross
 - The values in the cells are usually what you’re trying to optimize.
 - Each cell is a subproblem, so think about how you can divide your problem into subproblems.
 - There’s no single formula for calculating a dynamic-programming solution.
+
+# Chapter 10 - K-Nearest Neighbors
+- KNN is used for classification and regression and involves looking at the k-nearest neighbors.
+- Classification = categorization into a group.
+- Regression = predicting a response (like a number).
+- Feature extraction means converting an item (like a fruit or a user) into a list of numbers that can be compared.
+- Picking good features is an important part of a successful KNN algorithm.
